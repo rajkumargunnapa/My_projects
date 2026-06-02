@@ -22,7 +22,7 @@ def get_groq_llm():
         api_key=os.getenv("GROQ_API_KEY"),
         temperature=0.7, max_tokens=2000
     )
-
+# Initialize LLM and tools
 llm = get_groq_llm()
 
 # Tools
